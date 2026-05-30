@@ -1,0 +1,17 @@
+' "Hello, World!" Example Program '
+' Tested with Eso-1.0.0 '
+
+' Make sure the DP is set to zero. '
+&0 
+
+'Put our text into memory'
+@"Hello, World!" 
+
+' Null-terminate our text. '
+>*0 
+
+' Reset DP position'
+&0 
+
+' Print the string, then halt. '
+[.>]; 

@@ -1,0 +1,32 @@
+`  Declare variable
+~  Copy arg into data pointer
+!  Invert arg / memory
+@  Insert string into memory. " must follow after this.
+#  Create file
+$  Read the contents of a file into memory
+%  Delete file
+^  Wait for milliseconds
+&  Set data pointer
+*  Set memory
+(  If first arg / memory is greater than the second arg, jump to the command after the matching )
+)  If the first arg / memory is lesser than the second arg, jump back to the command after the matching (
+-  Decrement arg / memory
+=  Reset
+_  Put value of arg into memory
++  Increment arg / memory
+[  If the arg / memory is zero, jump to the command after the matching ]
+]  If the arg / memory is nonzero, jump back to the command after the matching [
+\  Copy data pointer into arg / memory
+{  If the first arg / memory is equal to the second arg, jump to the command after the matching }
+}  If the first arg / memory is not equal to the second arg, jump back to the command after the matching {
+|  Loop break
+;  Halt Execution
+'  Comment
+:  Put value of memory into arg
+"  String
+,  Accept input into arg / memory
+.  Output arg / memory
+/  Argument seperator
+<  Move data pointer left
+>  Move data pointer right
+?  Write block of memory to file

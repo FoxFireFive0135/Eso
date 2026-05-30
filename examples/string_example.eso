@@ -1,0 +1,16 @@
+`ENTRY/128
+
+`STR1/0
+`STR1L/13
+`STR2/14
+`STR2L/11
+
+`STRC/0
+
+~STR1@"Hello, World!"
+~STR2@"Hello, Eso!"
+
+~ENTRY
+_STR1L:STRC~STR1[STRC.>-STRC]
+*10.
+_STR2L:STRC~STR2[STRC.>-STRC];

@@ -1,0 +1,67 @@
+`MyVar/42
+
+~MyVar
+
+!MyVar
+
+@"Hello, World!"
+
+#hello_file
+
+$hello_file
+
+%hello_file
+
+^2000
+
+&0
+
+*27
+
+(MyVar 'your code here' )MyVar
+
+(MyVar/MyOtherVar 'your code here' )MyVar/MyOtherVar
+
+-MyVar
+
+- 'decrements memory'
+
+=
+
+_MyVar
+
++  'increments memory'
+
++MyVar
+
+[ 'your code here' ]
+
+[MyVar 'your code here' ]MyVar
+
+\MyVar
+
+{MyVar 'your code here' }MyVar
+
+{MyVar/MyOtherVar 'your code here' }MyVar/MyOtherVar
+
+[ 'your code' {MyVar |}MyVar 'more code'] 'Example of loop break in a loop'
+
+;
+
+'comment'
+
+:MyVar
+
+, 'puts input into mem'
+
+,MyVar
+
+. 'outputs memory'
+
+.MyVar 'outputs MyVar'
+
+<
+
+>
+
+?hello_file/32
