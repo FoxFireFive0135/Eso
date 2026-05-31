@@ -1,2 +1,2 @@
 # Eso
-A weird esotaric language I made for fun.
+A weird esoteric language I made for fun.
