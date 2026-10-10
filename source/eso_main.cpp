@@ -103,9 +103,8 @@ EsoStart: // This label is used by the reset(=) command. No clue if this is safe
 
 		if (arg.empty()) continue;
 
-		if (arg[0] == '!')
-		{
-			arg.erase(0, 1); // Remove garbage "!"
+		if (arg[0] == '!') {
+			arg.erase(0, 1);
 			src_name = arg;
 
 			if (src_name.empty()) return NO_FILENAME;
